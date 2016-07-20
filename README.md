@@ -10,7 +10,7 @@
     ```
 
   - Step 3: Build the target in `Simulator` mode, then in the `Generic iOS Device` mode.  
-    - Select any simulator, e.g. `iPhone 6 Pluse`, then click the `Build and Run` Button.
+    - Select any simulator, e.g. `iPhone 6 Plus`, then click the `Build and Run` Button.
     - Select the `Generic iOS Device`, then click the `Build and Run` Button.
     
       After that, a universal (multi-architec-ture) file: `liblive555.a` will be built by runing a script using `lipo -create`. All this happen automaticly, you don't have to execute the comand by hand.
