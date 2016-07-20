@@ -3,13 +3,13 @@
   
   - Step 1: Open the `live555.xcodeproj` in Xcode.
 
-  - Step 2: Set iOS SDK Version.
-    Edit the `IOS_VERSION` in `config.iphoneos` file, you can change it according to your iOS SDK Version.
+  - Step 2: Set iOS SDK Version.  
+    Edit the `IOS_VERSION` in `config.iphoneos` file, you can change it according to your iOS SDK Version.  
     ```
     IOS_VERSION = 10.0
     ```
 
-  - Step 3: Build the target in `Simulator` mode, then in the `Generic iOS Device` mode
+  - Step 3: Build the target in `Simulator` mode, then in the `Generic iOS Device` mode.  
     - Select any simulator, e.g. `iPhone 6 Pluse`, then click the `Build and Run` Button.
     - Select the `Generic iOS Device`, then click the `Build and Run` Button.
     
@@ -17,7 +17,7 @@
       The `liblive555.a` will be generated in the `output` directory, this file can be used in any simulator or `Generic iOS Device`.
       Also, all the headers needed will be copy to `/output/include`.
 
-  - Step 4: Use the `liblive555.a`.
+  - Step 4: Use the `liblive555.a`.  
     Copy `liblive555.b` and `include` directory in the output directory to your project.
     Then you can use it!!!
 
