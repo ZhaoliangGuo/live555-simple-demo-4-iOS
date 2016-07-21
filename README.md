@@ -4,6 +4,7 @@
   - Step 1: Open the `live555.xcodeproj` in Xcode.
 
   - Step 2: Set iOS SDK Version.  
+    
     Edit the `IOS_VERSION` in `config.iphoneos` file, you can change it according to your iOS SDK Version.  
     ```
     IOS_VERSION = 10.0
