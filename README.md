@@ -13,12 +13,12 @@
     - Select any simulator, e.g. `iPhone 6 Plus`, then click the `Build and Run` Button.
     - Select the `Generic iOS Device`, then click the `Build and Run` Button.
     
-      After that, a universal (multi-architec-ture) file: `liblive555.a` will be built by runing a script using `lipo -create`. All this happen automaticly, you don't have to execute the comand by hand.
+      After that, a universal (multi-architecture) file named `liblive555.a` will be built by runing a script using `lipo -create`. All this happen automaticly, you don't have to execute the comand by hand.
       The `liblive555.a` will be generated in the `output` directory, which can be used in any simulator or `Generic iOS Device`.
       Also, all the headers needed will be copy to `/output/include`.
 
   - Step 4: Use the `liblive555.a`.  
-    Copy `liblive555.b` and `include` directory in the output directory to your project.
+    Copy `liblive555.a` and `include` directory to your project.
     Then you can use it!!!
 
 # live555-simple-demo-4-iOS
