@@ -1,6 +1,6 @@
 # live555-build-4-iOS	
-  Build the live555(Version 20160626) to an static library named `liblive555.a`.  
-  Architectures in this fat file `liblive555.a` are: `i386` `x86_64` `armv7` `arm64`, so `liblive555.a` can be used in any `Simulator` or `Generic iOS Device`.
+  Build the live555(Version 20160626) to an static library named `liblive555.a`.  Architectures in this fat file `liblive555.a` are: `i386` `x86_64` `armv7` `arm64`, so `liblive555.a` can be used in any `Simulator` or `Generic iOS Device`.
+### Instructions.  
   
   - **Step 1: Open the `live555.xcodeproj` in Xcode**.
 
@@ -30,7 +30,7 @@
   ```
   char rtspURL[512] = "rtsp://192.168.1.101:8554/test.mkv";
   ```
-  Then run the project, the runing result will be shown in the console.
+  Then run the project, the result will be shown in the console.
   
 
 
