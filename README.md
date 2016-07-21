@@ -1,5 +1,6 @@
 # live555-build-4-iOS	
-  Build the live555(Base on live555 version 20160626) to an static library named `liblive555.a`.
+  Build the live555(Base on live555 version 20160626) to an static library named `liblive555.a`.  
+  Architectures in this fat file `liblive555.a` are: `i386` `x86_64` `armv7` `arm64`, so `liblive555.a` can be used in any `Simulator` or `Generic iOS Device`.
   
   - **Step 1: Open the `live555.xcodeproj` in Xcode**.
 
@@ -18,10 +19,6 @@
       Also, all the headers needed will be copy to `/output/include`.`.     
       **All this happen automaticly, you don't have to run any comand by hand**.    
   
-      Architectures in this fat file `liblive555.a` are: `i386` `x86_64` `armv7` `arm64`, so `liblive555.a` can be used in any `Simulator` or `Generic iOS Device`.
-      
-
-
   - **Step 4: Use the `liblive555.a`**.  
     Copy `liblive555.a` and `include` directory to your project.
     Then you can use it!!!
