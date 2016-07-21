@@ -29,5 +29,11 @@
 # live555-simple-demo-4-iOS
 
   The simplest rtsp client example that can open a valid rtsp url(using `liblive555.a`) in Xcode.
+  Find the function `- (int) PlayRTSP` in `ViewController.mm`, change `rtspURL` to a valid RTSP URL.  
+  ```
+  char rtspURL[512] = "rtsp://192.168.1.101:8554/test.mkv";
+  ```
+  Then run the project, the runing result will be shown in the console.
+  
 
 
