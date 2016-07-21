@@ -14,11 +14,12 @@
     - Select any simulator, e.g. `iPhone 6 Plus`, then click the `Build and Run` Button.
     - Select the `Generic iOS Device`, then click the `Build and Run` Button.
     
-      After that, a universal (multi-architecture) file named `liblive555.a` will be built by runing a script using `lipo -create`.   
-      Architectures in this fat file `liblive555.a` are: `i386` `x86_64` `armv7` `arm64` 
-      The `liblive555.a` will be generated in the `output` directory, which can be used in any `simulator` or `Generic iOS Device`.
-      Also, all the headers needed will be copy to `/output/include`.
-      **All this happen automaticly, you don't have to run any comand by hand**.  
+      After that, a universal (multi-architecture) file named `liblive555.a` will be generated in the `output` directory.  
+      Also, all the headers needed will be copy to `/output/include`.`.     
+      **All this happen automaticly, you don't have to run any comand by hand**.    
+  
+      Architectures in this fat file `liblive555.a` are: `i386` `x86_64` `armv7` `arm64`, so `liblive555.a` can be used in any `Simulator` or `Generic iOS Device`.
+      
 
 
   - **Step 4: Use the `liblive555.a`**.  
