@@ -1,7 +1,7 @@
 # live555-build-4-iOS	
-  Build live555 to an static `fat` library named `liblive555.a`. Architectures in `liblive555.a` are: `i386` `x86_64` `armv7` `arm64`. `liblive555.a` can be used in any `Simulator` or `Generic iOS Device`.
+  **Build live555 to an static `fat` library named `liblive555.a`. Architectures in `liblive555.a` are: `i386` `x86_64` `armv7` `arm64`. `liblive555.a` can be used in any `Simulator` or `Generic iOS Device`**.
     
-  **Base on live555 Version 20160626**. http://www.live555.com/liveMedia/
+  *Base on live555 Version 20160626*. http://www.live555.com/liveMedia/
   
 ### Instructions.  
   
