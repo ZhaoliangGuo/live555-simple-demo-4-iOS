@@ -20,7 +20,7 @@
     
       After that, a universal (multi-architecture) file named `liblive555.a` will be generated in the `output` directory.  
       Also, all the headers needed will be copy to `/output/include`.`.     
-      **All this happen automaticly, you don't have to run any comand by hand**.    
+      **All this happen automaticly, you don't have to run any command by hand**.    
   
   - **Step 4: Use the `liblive555.a`**.  
     Copy `liblive555.a` and `include` directory to your project.
